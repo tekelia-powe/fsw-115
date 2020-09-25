@@ -1,0 +1,73 @@
+{
+	"menu": [{
+		"name": "Appetizer",
+		"options": [{
+                "item": "Stuffed Mushrooms",
+                "ingredients": ["Mushroom Caps","3 Cheese Blend","Breadcrumbs","Clams"],
+                "description": "Mushroom Caps baked with a filling of 3 cheese blend, breadcrumbs and Clams"
+                    },
+                {
+                "item": "Artichoke and Spinach Dip",
+                "ingredients": ["Spinach","Artichoke","Cream"],
+                "description": "Tuscan bread served with a delicious blend of spinach, artichoke and cream."
+                    }]
+		
+	},
+    {
+        "name": "Cold Sandwiches",
+		"options": [{
+                "item": "B.L.T",
+                "ingredients": ["Bacon","Lettuce","Tomato"],
+                "description": "Crisy Bacon, Lettuce and Tomato on your choice of White, Wheat or Rye bread."
+                    },
+                {
+                "item": "Tuna Salad Sandwich",
+                "ingredients": ["Homemade Tuna","Lettuce","Tomato","Hard-boiled Egg"],
+                "description": "Homemade Tuna with hard-boiled egg, lettuce and tomato on a croissant"
+                    }]
+
+    },
+    {
+        "name": "Hot Sandwiches",
+		"options": [{
+                "item": "Tex-Mex Chicken Breast",
+                "ingredients": ["Chicken Breast","cheddar cheese", "salsa","sour cream"],
+                "description": "Chicken breast with cheddar cheese and salsa on a toasted bun with a side of sour cream."
+                    },
+                {
+                "item": "Hot Ham and Cheese",
+                "ingredients": ["Honey Baked Ham","cheese"],
+                "description": "Hot honey baked ham and cheddar cheese on a 12' roll"
+                    }]
+
+    },
+    {
+        "name": "Deserts",
+		"options": [{
+                "item": "Cheesecake",
+                "ingredients": ["Cheesecake","Cherries"],
+                "description": "Smooth, creamy cheesecake in a butter graham cracker crust topped with cherries."
+                    },
+                {
+                "item": "Apple Crisp",
+                "ingredients": ["Apple Cinnamon filling","Oat Crumble","Vanilla Ice Cream","Caramel Sauce"],
+                "description": "Warm apple Cinnamon filling topped with a crunchy oat crumble, vanilla ice cream and caramel sauce."
+                    }]
+
+    },
+    {
+        "name": "Drinks",
+		"options": [{
+                "item": "Strawberry Lemonade Spritzer",
+                "ingredients": ["Strawberry Flavor","Old Fashion Lemonade","sprite"],
+                "description": "Old Country lemonade flavored with Strawberry mixture and a dash of sprite."
+                    },
+                {
+                "item": "Fresh Squeezed Lemonade",
+                "ingredients": ["Lemons","Fresh Lime"],
+                "description": "Old Country lemonade flavored with a sprig of fresh cut Lime."
+                    }]
+
+    }
+    ]
+}
