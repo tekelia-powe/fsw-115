@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background-image: url('./images/backgound.jpg');
+    background-size: 100% 100%;
+    
+    margin-top: 125px;
+    
+}
+.header{
+    /* font-family: 'Cookie', cursive; */
+    font-family: 'Press Start 2P', cursive;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: red;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: white;
+  }
+navbar{
+    border: solid black 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.main{
+   border: solid black 5px;
+   background-color: teal;
+   
+}
+button{
+
+    width: 150px;
+    height: 100px;
+}
+
+button:hover {
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+  }

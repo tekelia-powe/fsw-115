@@ -1,0 +1,28 @@
+body{
+    margin-left: 33%;
+    margin-top: 10%;
+    background-image: url(images/todo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    
+    
+}
+.header{
+
+    background-color: rgb(224, 62, 62);
+    text-align: center;
+    width: max-content;
+    border: solid black 2px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.main{
+    background-color:rgb(216, 213, 213);
+    text-align: center;
+    width: 500px;
+    border: solid grey 2px;
+    align-content: center;
+}
