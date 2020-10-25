@@ -1,0 +1,76 @@
+/* body{
+    margin-left: 33%;
+    margin-top: 10%;
+    background-color: black;
+    margin-top: 25px;
+    margin-left: 50px;
+    
+    
+}*/
+ 
+.main_container{
+    display: grid;
+  grid-template-areas:
+    'header header'
+    'box1 box2';
+  grid-gap: 10px;
+  align-items: baseline;
+  padding: 10px;
+}
+ 
+.header { grid-area: header; }
+.box1 { grid-area: box1;
+        
+    }
+.box2 { grid-area: box2; }
+
+
+#header_box{
+
+    background-color: lightgrey;
+    text-align: center;
+   
+    border: solid black 2px;
+    font-family: 'Permanent Marker', cursive;
+    align-content: center;
+    padding: 5px;
+    
+}
+#header {
+    background-image: url(images/todo.jpg);
+    padding: 25px;
+    
+}
+#list_container{
+    background-color:rgb(216, 213, 213);
+    text-align: center;
+    
+    border: solid grey 12px;
+    align-content: center;
+    
+}
+
+#form_container{
+   
+    padding-left: 50px;
+    
+    margin-left: 25px;
+}
+
+.main{
+
+    border: solid black 2px;
+    padding-top: 10px;
+}
+
+@media (max-width: 700px) {
+    .main_container  {
+      grid-template-areas: 
+        'header header' 
+        'box1 box1'
+        'box2 box2';
+        
+
+
+    }
+  }
