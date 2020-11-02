@@ -1,0 +1,162 @@
+
+@media only screen and (min-width:800px) {
+.header{
+    grid-area: header;
+    background-color: blue;
+    padding: 125px;
+    background-image: url("./images/logo.jpg");
+    height: max-content;
+    margin: 25px;
+}
+
+.main{
+    
+    background-color: blue;
+    color: white;
+    border: solid red 2px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.image {
+    width: max-content;
+    
+    border: solid red 2px;
+    border-radius: 10px;
+    float: left;
+    padding: 15px;
+    margin: 20px;
+    
+    
+}
+.image2 {
+    width: max-content;
+    
+    border: solid red 2px;
+    border-radius: 10px;
+    float: right;
+    padding: 15px;
+    margin: 20px;
+    
+    
+}
+
+.main_container {
+    display: grid;
+    grid-template-rows: 25% 75%;
+    
+  }
+
+  .grid-item {
+     
+     padding: 10px;
+  }
+}
+@media only screen and (min-width:400px) {
+    .header{
+        grid-area: header;
+        background-color: blue;
+        padding: 125px;
+        background-image: url("./images/logo.jpg");
+        height: max-content;
+        margin: 25px;
+    }
+    
+    .main{
+        
+        background-color: green;
+        color: white;
+        border: solid red 2px;
+        border-radius: 20px;
+        text-align: center;
+    
+    }
+    
+    .image {
+        width: max-content;
+        
+        border: solid red 2px;
+        border-radius: 10px;
+        float: left;
+        padding: 15px;
+        margin: 20px;
+        
+        
+    }
+    .image2 {
+        width: max-content;
+        
+        border: solid red 2px;
+        border-radius: 10px;
+        float: right;
+        padding: 15px;
+        margin: 20px;
+        
+        
+    }
+    
+    .main_container {
+        display: grid;
+        grid-template-rows: 25% 75%;
+        
+      }
+    
+      .grid-item {
+         
+         padding: 10px;
+      }
+    }
+.header{
+    grid-area: header;
+    
+    padding: 125px;
+    background-image: url("./images/logo.jpg");
+    height: max-content;
+    margin: 25px;
+}
+
+.main{
+    
+    background-color: black;
+    color: white;
+    border: solid red 2px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.image {
+    width: max-content;
+    
+    border: solid red 2px;
+    border-radius: 10px;
+    float: left;
+    padding: 15px;
+    margin: 20px;
+    
+    
+}
+.image2 {
+    width: max-content;
+    
+    border: solid red 2px;
+    border-radius: 10px;
+    float: right;
+    padding: 15px;
+    margin: 20px;
+    
+    
+}
+
+.main_container {
+    display: grid;
+    grid-template-rows: 25% 75%;
+    
+  }
+
+  .grid-item {
+     
+     padding: 10px;
+  }
+
